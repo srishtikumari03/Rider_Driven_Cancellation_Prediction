@@ -17,6 +17,7 @@ Given the order and rider details, create a model that can predict rider-driven 
 - We used pandas framework to import the data and perform further analysis on it.
 - Used basic feature engineering.
 - Scaled Data and selected required features
+- Plotted correlation matrix using matplotlib
 
 ##### **Training model using different techniques**
 
