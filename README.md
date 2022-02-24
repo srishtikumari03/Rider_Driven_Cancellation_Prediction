@@ -14,7 +14,7 @@ Given the order and rider details, create a model that can predict rider-driven 
 
 ##### **Data importing and exploration**
 
-- We will use pandas framework to import the data and perform further analysis on it.
+- We used pandas framework to import the data and perform further analysis on it.
 - Used basic feature engineering.
 - Scaled Data and selected required features
 
@@ -23,9 +23,11 @@ Given the order and rider details, create a model that can predict rider-driven 
 - Splitted data into test and train datasets.
 - We used logistic regression classifier,SVM, Gradient Boost Classifier, Random Forest on training dataset.
 - Tuned hyperparameters.
-- Calculated accuracy and ROC_AUC on the test dataset.
-- Visualised using confusion matrix using sklearn.
+- Calculated accuracy and ROC_AUC on the test dataset and train dataset.
+- Plotted accuracy vs ROC_AUC score using matplotlib.
+- Visualised predictions using confusion matrix using sklearn.
 
 ##### **Model Comparison**
 
-- Compared models based on accuracy and ROC_AUC score.
+- Compared models based on accuracy and ROC_AUC score on the test dataset.
+- Predicted results using best hyperparameters.
